@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  DetailNewcontroller.h
 //  网易新闻
 //
 //  Created by yosemite on 15/1/24.
@@ -7,11 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+@class CRheadModel;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface DetailNewcontroller : UIViewController
+@property (nonatomic,strong)CRheadModel *headmodel;
 
 @end
-

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  HeadLineTableViewController.h
 //  网易新闻
 //
 //  Created by yosemite on 15/1/24.
@@ -8,10 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface HeadLineTableViewController : UITableViewController
 
-@property (strong, nonatomic) UIWindow *window;
-
-
+@property (nonatomic,strong)NSDictionary *urlList;
 @end
-
